@@ -1,0 +1,78 @@
+.div1{
+    margin: 2px;
+    color: rgb(241, 234, 234);
+    background-color: rgb(9, 9, 9);
+    width: 100px;
+    float: left;
+    height: 60px;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+#main{
+    background-color: rgb(133, 114, 114);
+    flex-wrap: wrap;
+    flex-direction:row-reverse;
+    height: 450px;
+    width: 420px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 70px;
+    padding: 2px;
+    left: 2px;
+ 
+}
+.num{
+    height: 100px;
+    padding: auto;
+    text-align: end;
+    width: 400px;
+    border: 4px rgb(133, 114, 114) solid;
+    font-weight: bold;
+    font-size: 40px;
+}
+.div1:hover{
+    background-color: rgb(55, 50, 50);
+}
+
+.org{
+    margin: 2px;
+    color: rgb(241, 234, 234);
+    width: 100px;
+    float: left;
+    height: 60px;
+    background-color: brown;
+    font-weight: bold;
+    font-size: 40px;}
+.equal{
+    background-color: blue;
+    margin: 2px;
+    color: rgb(241, 234, 234);
+    width: 100px;
+    height: 60px;
+    float: left;
+    font-weight: bold;
+    font-size: 40px;
+}
+.divp{
+    margin: 2px;
+    color: rgb(241, 234, 234);
+    width: 100px;
+    height: 60px;
+    float: left;
+    background-color: rgb(206, 153, 84);
+    font-weight: bold;
+    font-size: 40px;
+}
+body{
+    padding: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+div{
+text-align: center;
+position: relative;
+left: 250px;}
